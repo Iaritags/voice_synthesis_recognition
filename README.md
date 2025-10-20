@@ -87,12 +87,7 @@ Escribí el texto para convertir a voz: Hola Iara, probando síntesis de voz.
 > Por este motivo, el código original falla en versiones más nuevas del intérprete.  
 
 
-
-> ⚠️ Este parche permite usar **WAV → texto** sin problemas.  
-> Sin embargo, la captura de micrófono podría no funcionar completamente,  
-> ya que `audioop.ratecv` no está implementado en este modo.
-
-Para compatibilidad total (incluido micrófono), se recomienda usar:
+Se recomienda usar:
 - **Python 3.11 o 3.12**
 
 ---
